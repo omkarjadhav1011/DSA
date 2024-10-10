@@ -9,6 +9,8 @@ public class Inserstion {
       for(int i=0 ; i<=arr.length;i++) {
         System.out.println(arr[i]+" ");
       }
+
+      System.out.println(arr.getClass());
     }
 
     public static void insertElement(int arr[],int n,int x,int pos) {
